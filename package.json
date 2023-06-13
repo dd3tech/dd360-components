@@ -53,7 +53,7 @@
         "generate-exports": "node ./scripts/combinePackage.js"
     },
     "dependencies": {
-        "@heroicons/react": "^1.0.5",
+        "@heroicons/react": "^2.0.18",
         "@popperjs/core": "2.11.7",
         "dd360-utils": "^1.0.12",
         "react-circular-progressbar": "^2.1.0",
