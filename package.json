@@ -79,7 +79,7 @@
         "@semantic-release/github": "^8.0.7",
         "@semantic-release/npm": "^9.0.1",
         "@semantic-release/release-notes-generator": "^10.0.3",
-        "@storybook/addon-actions": "6.5.10",
+        "@storybook/addon-actions": "7.0.22",
         "@storybook/addon-essentials": "6.5.10",
         "@storybook/addon-links": "6.5.10",
         "@storybook/addon-postcss": "2.0.0",
