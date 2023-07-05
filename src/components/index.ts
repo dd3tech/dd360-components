@@ -118,6 +118,9 @@ export * from './Progress'
 export { default as BarList } from './BarList'
 export * from './BarList'
 
+export { default as Timeline } from './Timeline'
+export * from './Timeline'
+
 export * from './Filters'
 export * from './Tabs'
 export * from './FormControl'

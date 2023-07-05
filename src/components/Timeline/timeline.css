@@ -1,0 +1,42 @@
+.timeline-cmpnt.alternate li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline-cmpnt.alternate li:nth-child(even) > :first-child {
+  text-align: left;
+}
+
+.timeline-cmpnt.alternate li:nth-child(even) > :last-child {
+  text-align: right;
+}
+
+.timeline-cmpnt.alternate li:not(:has(div[role='timeline-content']))::before {
+  content: '';
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.timeline-cmpnt.alternate
+  li:not(:has(div[role='timeline-opposite-content']))::before {
+  content: '';
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.timeline-cmpnt.right li > :first-child {
+  text-align: right;
+}
+
+.timeline-cmpnt.right li > :last-child {
+  text-align: left;
+}
+
+.timeline-cmpnt.left li > :first-child {
+  text-align: right;
+}
+
+.timeline-cmpnt.left li > :last-child {
+  text-align: left;
+}
